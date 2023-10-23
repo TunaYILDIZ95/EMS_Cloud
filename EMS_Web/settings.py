@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'crispy_forms',
     'powersystem_tools',
+    'crispy_bootstrap4',
 ]
 
 MIDDLEWARE = [

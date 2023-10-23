@@ -9,7 +9,7 @@ class FileUpload(forms.ModelForm):
         model = Document
         fields = ['docfile']
         widgets = {
-            'docfile': ClearableFileInput(attrs={'multiple': True}),
+            'docfile': ClearableFileInput(attrs={"allow_multiple_selected": True}),
         }
     
     def __init__(self, *args, **kwargs):
